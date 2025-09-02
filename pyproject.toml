@@ -84,7 +84,7 @@ dev-tools= [
 
 # All-in-one dev group
 dev = [
-    "data-tools[notebook,image,xml,dev-tools]",
+    "package_name[notebook,image,xml,dev-tools]",
 ]
 
 [tool.ruff]
