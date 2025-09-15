@@ -35,3 +35,10 @@ dependencies:
   - ruff>=0.12.11
   - pytest>=8.4.0
   - pre-commit>=4.3.0
+
+  - pip:
+    - xgboost>=3.0.5
+    - tensorflow>=2.18.0
+    - tensorflow_probability>=0.25.0
+    - plotly>=6.3.0
+    - kaleido>=1.1.0

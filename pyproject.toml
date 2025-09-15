@@ -58,33 +58,40 @@ dependencies = [
 
 [project.optional-dependencies]
 
-# Notebooks
+visualization = [
+    "plotly>=6.3.0",
+    "kaleido>=1.1.0"
+]
+
 notebook = [
     "notebook>=7.0.0",
     "ipykernel>=6.0.0",
 ]
 
-# Image processing
 image = [
     "opencv-python>=4.0.0",
     "Pillow>=11.0.0",
 ]
 
-# XML stuff
-xml = [
+parsing = [
     "lxml>=5.0.0",
 ]
 
-# Testing
-dev-tools= [
+machine-learning = [
+    "xgboost>=3.0.5",
+    "tensorflow>=2.18.0",
+    "tensorflow-probability>=0.25.0"
+]
+
+dev = [
 	"ruff>=0.12.11",
     "pytest>=8.4.0",
     "pre-commit>=4.3.0",
 ]
 
-# All-in-one dev group
-dev = [
-    "package_name[notebook,image,xml,dev-tools]",
+# Nested groups
+all = [
+    "package_name[visualization,notebook,image,parsing,machine-learning,dev]",
 ]
 
 [tool.ruff]
