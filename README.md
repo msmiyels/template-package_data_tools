@@ -8,11 +8,8 @@
 
 This repository provides a modern, ready-to-use environment template for data analysis and geospatial projects in Python. It is designed to help you start your own data science or research project with minimal setup effort. **This repository is intended to be used as a GitHub template when creating a new repository, not for direct cloning.**
 
-Simply use this template when creating your own GitHub repository, then rename the package and folder from `package_name` to your desired project name, and you are ready to go. 🚀
-
-- **Author:** Michael Steffen ([miyels@proton.me](mailto:miyels@proton.me))
-- **License:** MIT
-- **Keywords:** data science, geospatial, pandas, numpy, scikit-learn
+Simply use this template when creating your own GitHub repository, then rename the package and folder from `package_name` to your desired project name, and you are ready to go. 🚀<p>
+**Keywords:** data science, geospatial, pandas, numpy, scikit-learn
 
 ## How to Use This Template 🛠️
 
