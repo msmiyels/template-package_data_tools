@@ -1,4 +1,4 @@
-# template-package_data_tools: Python Data Tools Environment Template
+# Python Data Tools Environment Template
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
