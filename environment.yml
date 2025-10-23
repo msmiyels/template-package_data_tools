@@ -1,4 +1,4 @@
-name: data_tools
+name: package_template
 
 channels:
   - conda-forge
