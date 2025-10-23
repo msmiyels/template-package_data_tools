@@ -63,7 +63,6 @@ import your_package_name  # Replace with your actual package name
 ```
 
 ### Example: Run a Python file using uv 🏃‍♂️
-
 Suppose you have a script called `app.py` in your project root:
 
 1. Navigate to the project root (contains the environment) and open a terminal
