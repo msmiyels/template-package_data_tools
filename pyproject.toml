@@ -74,9 +74,6 @@ machine-learning = [
     "xgboost>=3.0.5",
     "tensorflow>=2.18.0",
     "tensorflow-probability>=0.25.0"
-]
-
-sampling = [
     "imbalanced-learn>=0.11.0",
 ]
 
@@ -107,13 +104,10 @@ quote-style = "double"
 
 [tool.pytest.ini_options]
 minversion = "8.0"
+testpaths = ["tests"]
 
-testpaths = [
-    "tests",
-]
-
-# -v:		verbose mode
-# -s:       output of print() statements during test
+# -v:   verbose mode
+# -s:   output of print() statements during test
 addopts = "-v -s"
 
 python_files = "test_*.py"
