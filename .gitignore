@@ -181,6 +181,7 @@ results/
 exports/
 logs/
 experiments/
-examples/
 cache/
 
+# Keep these files
+!data/examples

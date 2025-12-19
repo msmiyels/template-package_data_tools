@@ -15,4 +15,3 @@ repos:
     -   id: end-of-file-fixer          # ensure files end with empty line
     -   id: check-yaml                 # check yaml files for syntax
     -   id: check-added-large-files    # do not allow to commit large files
-    

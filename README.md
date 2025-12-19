@@ -15,14 +15,14 @@ Simply use this template when creating your own GitHub repository, then rename t
 
 1. **Create your new repository using this template on GitHub.**
 2. **Rename all occurrences of `package_name`** in the codebase and folder structure to your desired package name.
-   
+
    <details>
    <summary>Where to replace <code>package_name</code>? 🔍</summary>
-   
+
    - <strong>src/package_name/</strong> (folder name)
    - <strong>src/package_name/__init__.py</strong> (file name)
    - <strong>pyproject.toml</strong> (in the <code>packages</code> list and optional dependencies)
-   
+
    </details>
 3. **Customize the code and documentation** as needed for your project. 🎨
 
