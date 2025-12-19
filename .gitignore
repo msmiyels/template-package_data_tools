@@ -175,13 +175,14 @@ sync.ffs_db
 .obsidian/
 .idea/
 .bak/
-data/
 local/
 results/
 exports/
+data/*
 logs/
 experiments/
 cache/
 
 # Keep these files
-!/data/examples
+!data/examples
+!data/examples/**
