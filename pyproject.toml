@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Environment template for a package named data-tools."
 readme = "README.md"
 authors = [
-    { name = "Michael Steffen", email = "miyels@proton.me" }
+    { name = "Michael Steffen", email = "miyels@gmx.com" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.12"
